@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot-dev
+spec:
+  selector:
+    matchLabels:
+      app: springboot-dev
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: springboot-dev
+        maistra.io/expose-route: 'true'
+    spec:
+      containers:
+      - name: springboot-dev
+        image: izenofluent/javaspring:1.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: springboot-dev-service
+spec:
+  selector:
+    app: springboot-dev
+  ports:
+    - port: 8080
+      targetPort: 8080
+  type: LoadBalancer
