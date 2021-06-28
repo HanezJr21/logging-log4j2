@@ -15,7 +15,7 @@ public class HelloController {
 
     private static final Logger logger = LogManager.getLogger(HelloController.class);
 
-    private List<Integer> num = Arrays.asList(1, 2, 3, 4, 5);
+    private List<Integer> num = Arrays.asList(1, 2, 3, 4, 5,6);
 
     @GetMapping("/")
     public String main(Model model) {
