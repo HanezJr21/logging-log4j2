@@ -1,0 +1,8 @@
+2021-06-11 12:46:43,609 INFO c.m.StartApplication [main] Starting StartApplication on iZeno-NB1107 with PID 11268 (C:\Users\yohanesirwan.rinaldy\Downloads\logging-log4j2\target\classes started by yohanesirwan.rinaldy in C:\Users\yohanesirwan.rinaldy\Downloads\logging-log4j2)
+2021-06-11 12:46:43,618 DEBUG c.m.StartApplication [main] Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2021-06-11 12:46:43,619 INFO c.m.StartApplication [main] No active profile set, falling back to default profiles: default
+2021-06-11 12:46:46,547 INFO c.m.StartApplication [main] Started StartApplication in 3.316 seconds (JVM running for 4.693)
+2021-06-11 12:46:59,254 DEBUG c.m.HelloController [http-nio-8080-exec-1] Hello from Log4j 2 - num : [1, 2, 3, 4, 5]
+2021-06-11 12:46:59,256 DEBUG c.m.HelloController [http-nio-8080-exec-1] Hello from Log4j 2 - num : [1, 2, 3, 4, 5]
+2021-06-11 12:47:03,887 DEBUG c.m.HelloController [http-nio-8080-exec-3] Hello from Log4j 2 - num : [1, 2, 3, 4, 5]
+2021-06-11 12:47:03,887 DEBUG c.m.HelloController [http-nio-8080-exec-3] Hello from Log4j 2 - num : [1, 2, 3, 4, 5]
